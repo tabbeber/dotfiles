@@ -1,0 +1,1 @@
+curl https://unicode.org/emoji/charts/full-emoji-list.html | grep -e "'chars'" -e "'name'" | sed "s/<td class='andr'.*. …//g" | sed "s/<\/td>//g" | sed -z "s/\n<td class='name'>/\: /g" | sed "s/<td class='chars'>//g" | sed "s/\&amp;/\&/g" | sed "s/⊛ //g" > ~/.local/bin/resources/emojilist
