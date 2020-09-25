@@ -1,0 +1,5 @@
+#!/bin/sh
+emoji=$(cat ~/.local/bin/resources/emojilist | rofi -dmenu -i | sed 's/:.*//')
+[ -z "$emoji" ] && exit 0
+echo "$emoji" | tr -d '\n' | xclip -selection clipboard
+xdotool type $emoji

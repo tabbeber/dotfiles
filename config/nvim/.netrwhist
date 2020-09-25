@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/tom/.config/termite'
+let g:netrw_dirhist_8='/home/tom/.config/picom'
+let g:netrw_dirhist_7='/etc/systemd/system/suspend.target.wants'
+let g:netrw_dirhist_6='/home/tom/.config/spicetify/Themes/Nord'
+let g:netrw_dirhist_5='/home/tom/.config/spicetify/Themes'
+let g:netrw_dirhist_4='/home/tom/.config/spicetify'
+let g:netrw_dirhist_3='/home/tom/.config/spicetify/Themes/Nord'
+let g:netrw_dirhist_2='/home/tom/.config/spicetify/Themes'
+let g:netrw_dirhist_1='/home/tom/.config/spicetify'
